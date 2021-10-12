@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Девайс</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Интернет-магазин «Девайс»</title>
+</head>
+<body>
+<header class="main-header">
+<a class="header-logo-link">
+  <img class="page-header-logo" src="" alt="Логотип Интернет-магазин «Девайс»">
+</a>
+<form class="navigation-search-form" action="https://echo.htmlacademy.ru/" method="get">
+  <label class="navigation-search" for="navigation-search-form">
+    <span class="visually-hidden">Поиск</span>
+  </label>
+  <input class="field" placeholder="Поиск по сайту" type="text" name="search-query" id="navigation-search-form">
+  </form>
+<nav class="navigation-header">
+<ul class="navigation-list navigation-user">
+    <li class="navigation-item">
+      <a class="navigation-link" href="">Войти</a>
+    </li>
+    <li class="navigation-item">
+      <a class="navigation-link" href="">Сравнить</a>
+    </li>
+    <li class="navigation-item">
+      <a class="navigation-link" href="">Корзина</a>
+    </li>
+</ul>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+<ul class="navigation-list">
+  <li class="navigation-item">
+    <a class="navigation-link" href="catalog.html">Каталог товаров</a>
+    <button class="button-catalog" type="button">
+      <span class="visually-hidden">Показать все категории каталога</span>
+    </button>
+  </li>
+  <li class="navigation-item">
+    <a class="navigation-link" href="#">Доставка</a>
+  </li>
+  <li class="navigation-item">
+    <a class="navigation-link" href="#">Гарантия</a>
+  </li>
+  <li class="navigation-item">
+    <a class="navigation-link" href="#">Контакты</a>
+  </li>
+</ul>
+</nav>
+</header>
 
-  </body>
+</body>
 </html>
